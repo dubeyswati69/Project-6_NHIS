@@ -190,7 +190,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
 
-    deployment = joblib.load("sales_forecasting_deployment_light.pkl")
+    deployment = joblib.load("sales_forecasting_streamlit.pkl")
 
     return deployment
 
