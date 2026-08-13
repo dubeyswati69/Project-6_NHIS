@@ -1,22 +1,36 @@
-<!-- # Rossmann Sales Forecasting
-## Dashboard Preview
-
-![Dashboard](images/dashboard.png) -->
 # 📈 Rossmann Sales Forecasting
 
-## 📌 Project Overview
 
-This project predicts daily sales for Rossmann stores using Machine Learning. The objective is to help store managers estimate future sales based on store characteristics, promotions, holidays, competition, and calendar information.
+Predict daily sales for Rossmann stores using Machine Learning and an interactive Streamlit dashboard. The application helps estimate sales based on store information, promotions, holidays, competition, and calendar features.
 
----
 
-## 🖥️ Dashboard Preview
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+##  Live Demo
+
+[Launch the Application](https://project-6nhis-g7rvxumstx9916ofuyu4h5.streamlit.app/)
+
+
+## 📷 Dashboard Preview
 
 ![Dashboard](images/dashboard.png)
 
+## Project Overview
+
+Rossmann operates thousands of drug stores across Europe. Accurate daily sales forecasting helps optimize inventory management, staffing, and promotional planning.
+
+This project builds a Machine Learning pipeline that predicts daily store sales using historical transaction data, store information, promotional campaigns, holidays, and competition details.
+
+The solution is deployed as an interactive Streamlit application where users can modify store attributes and instantly receive sales predictions with business insights.
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Rossmann operates thousands of retail stores. Accurate sales forecasting helps:
 
@@ -28,7 +42,7 @@ Rossmann operates thousands of retail stores. Accurate sales forecasting helps:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the Rossmann Store Sales dataset containing:
 
@@ -41,41 +55,41 @@ The project uses the Rossmann Store Sales dataset containing:
 
 ---
 
-## 🔍 Exploratory Data Analysis
+##  Features
 
-Performed:
-
-- Data Cleaning
-- Missing Value Treatment
-- Feature Engineering
-- Correlation Analysis
-- Promotion Analysis
-- Store Performance Analysis
-- Time Series Analysis
-
----
-
-## 🤖 Machine Learning Model
-
-The model was trained using feature engineering and preprocessing techniques.
-
-### Features Used
-
-- Store
-- Day of Week
-- Promotion
-- School Holiday
-- State Holiday
-- Store Type
-- Assortment
-- Competition Distance
-- Competition Opening Date
-- Promo2 Details
-- Date Features (Year, Month, Day, Week, Quarter)
+- Interactive Streamlit Dashboard
+- Real-time Sales Prediction
+- Feature Importance Visualization
+- Business Insight Cards
+- Prediction Confidence Gauge
+- Data Preprocessing Pipeline
+- Random Forest Regression Model
+- Optimized Deployment Model
 
 ---
 
-## 📱 Streamlit Dashboard
+## Machine Learning Pipeline
+
+1. Data Cleaning
+2. Missing Value Treatment
+3. Feature Engineering
+4. Label Encoding
+5. Model Training
+6. Model Evaluation
+7. Streamlit Deployment
+
+##  Model Performance
+
+| Metric | Value |
+|--------|-------|
+| Algorithm | Random Forest Regression |
+| MAE | 664.80 |
+| RMSE | 1089.45 |
+| R² Score | 0.9197 |
+
+---
+
+##  Streamlit Dashboard
 
 The dashboard allows users to:
 
@@ -88,21 +102,22 @@ The dashboard allows users to:
 
 ---
 
-## 🛠️ Technologies Used
+### Tech Stack
 
 - Python
 - Pandas
 - NumPy
-- Matplotlib
 - Scikit-learn
-- Joblib
 - Streamlit
+- Plotly
+- Matplotlib
+- Joblib
 - Git
 - GitHub
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository
 
@@ -124,7 +139,23 @@ streamlit run app.py
 
 ---
 
-## 📌 Future Improvements
+##  Folder Structure
+
+```text
+Project-6_NHIS
+│
+├── images/
+│   └── dashboard.png
+│
+├── app.py
+├── requirements.txt
+├── sales_forecasting_streamlit.pkl
+├── Rossmann_Sales_Forecasting.ipynb
+├── README.md
+└── .gitignore
+```
+
+##  Future Improvements
 
 - Deploy on Streamlit Cloud
 - Hyperparameter Optimization
@@ -134,8 +165,12 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Swati Dwivedi**
 
 Data Analyst | Python | Machine Learning | Streamlit | SQL
+
+GitHub: https://github.com/dubeyswati69
+
+LinkedIn: https://www.linkedin.com/in/swati-dwivedi-667b50172/
