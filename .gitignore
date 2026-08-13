@@ -1,5 +1,5 @@
-sales_forecasting_deployment_light.pkl
+# Ignore all model files
 *.pkl
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
+
+# But keep the deployment model
+!sales_forecasting_streamlit.pkl
