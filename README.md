@@ -10,11 +10,9 @@ Predict daily sales for Rossmann stores using Machine Learning and an interactiv
 
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
 
-![License](https://img.shields.io/badge/License-MIT-blue)
-
 ##  Live Demo
 
-[Launch the Application](https://project-6nhis-g7rvxumstx9916ofuyu4h5.streamlit.app/)
+[Launch the Application](https://project-6nhis-g7rvxumstx99l6ofuyu4h5.streamlit.app/)
 
 
 ## 📷 Dashboard Preview
